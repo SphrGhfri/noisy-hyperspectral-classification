@@ -5,19 +5,19 @@ The presence of noise in images affect Convolutional Neural Networks (CNNs) clas
 The robustness of CNN model is investigated by using Cross-Entropy, Pseudo-Huber and Correntropy Loss functions on noisy data with different levels of noise.
 The experiments are performed using Xception CNN architecture on Pavia University and Salinas Scene datasets. Some common noises in hyperspectral images such as Gaussian, Stripe and Salt and Pepper is applied to test data, and the classification results with different loss functions are compared. In order to reduce training time and prevent overfitting, hyperspectral pixel to image sampling method is proposed.
 
-<img src="figure/pavia_noises.png" width="400"/>
+<img src="figure/pavia_noises.png" width="450"/>
 
 Fig: The RGB part of the Pavia University hyperspectral image and the presence of different noises. (a) Noiseless. (b) Gaussian. (c) Stripe. (d) Salt & Pepper.
 
-<img src="figure/salinas_noises.png" width="400"/>
+<img src="figure/salinas_noises.png" width="450"/>
 
 Fig.2: The RGB part of the Salinas Scene hyperspectral image and the presence of different noises. (a) Noiseless. (b) Gaussian. (c) Stripe. (d) Salt & Pepper.
 
-<img src="figure/sampling.png" width="400"/>
+<img src="figure/sampling.png" width="500"/>
 
 Fig.3: Proposed pixel to image sampling method for (a) Pavia university and (b) Salinas scene datasets
 
-<img src="figure/framework.png" width="400"/>
+<img src="figure/framework.png" width="500"/>
 
 Fig.4: Investigation of CNN model robustness framework
 
