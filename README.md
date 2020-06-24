@@ -33,7 +33,7 @@ Description of the repository for each dataset folders:
 2) Run Salinas_train_test_split.py with python to split datas into train and test folders
 3) Run Salinas_CrossEntropy.py , Salinas_Correntropy.py and Salinas_PseudoHuber.py to train transfer learning Xception model with noiseless data and evaluate on Gaussian, Salt & Pepper and Stripe noises with levels of 0, 5%, 10%, 15%, 20% and 25% of noise.
 
-Results will save under "Results" folder for 50 runs. Because of getting different result in each run, it is better to average results of multipe runs to discuss about the effect of each loss function.
+Results will save under "Results" folder for 50 runs. Because of getting different result in each run, it is better to average results of multiple runs to discuss about the effect of each loss function.
 
 PaviaU.mat, PaviaU_gt.mat,Salinas_corrected.mat and Salinas_gt.mat were downloaded from (http://www.ehu.eus/ccwintco/index.php/Hyperspectral_Remote_Sensing_Scenes)
 
