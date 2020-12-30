@@ -49,3 +49,6 @@ PaviaU.mat, PaviaU_gt.mat,Salinas_corrected.mat and Salinas_gt.mat were download
 
 ## Hardware used
 The convolutional neural networks were trained on a machine with Intel Core i5-7400 CPU, 8 GB RAM and NVIDIA GeForce GTX 1060 6GB GPU.
+
+MIT License
+Copyright (c) 2020 Sepehr Ghafari
